@@ -171,6 +171,7 @@ background-color: #ecd599;
     margin-bottom: 10px;
      box-shadow: #325e5e 4px 4px;
     transition: 0.3s;
+    height: 102px;
 }
 .bagimg:hover{
      transform: scale(1.1);
@@ -180,7 +181,7 @@ background-color: #ecd599;
     display: flex;
     flex-direction: column;
     width: fit-content;
-    
+    align-items: center;
 }
 .bagbutprc{
     background-color: #184e4e;
@@ -202,12 +203,42 @@ background-color: #ecd599;
     transition: 0.3s;
 }
 .timg{
-    width: 102px;
+    width: auto;
     border: #353817 solid;
     margin-bottom: 10px;
     box-shadow: #64742d 4px 4px;
+    height: 102px;
 }
 .timg:hover{
+      transform: scale(1.1);
+    transition: 0.3s;
+}
+.cimg{
+    width: 100%;
+    border: #353817 solid;
+    margin-bottom: 10px;
+    box-shadow: #64742d 4px 4px;
+   height: 100px;
+   padding: 4px;
+
+}
+.xcimg{
+    width: 100%;
+    border: #353817 solid;
+    margin-bottom: 10px;
+    box-shadow: #64742d 4px 4px;
+   height: 100px;
+   padding: 4px;
+padding-top: 19px;
+      padding-bottom: 19px;
+
+}
+ 
+.cimg:hover{
+      transform: scale(1.1);
+    transition: 0.3s;
+}
+.xcimg:hover{
       transform: scale(1.1);
     transition: 0.3s;
 }
@@ -231,11 +262,29 @@ background-color: #ecd599;
     transition: 0.3s;
 }
 
-.pimg{
+.cbutpri{
+      background-color: #3b4e18;
     width: 102px;
+    color: #f2e5c3;
+    border: #081a1a solid;
+    box-shadow: #171a08 4px 4px;
+    height: 40px;
+ 
+
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;  
+}
+.cbutpri:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.pimg{
+    width: auto;
     border: #1f3817 solid;
     margin-bottom: 10px;
     box-shadow: #2d7448 4px 4px;
+    height: 102px;
 }
 .pimg:hover{
      transform: scale(1.1);
@@ -269,6 +318,10 @@ background-color: #ecd599;
     box-shadow: none;
 }
 .tbutpri:active{
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+.cbutpri:active{
     transform: translate(4px, 4px);
     box-shadow: none;
 }
